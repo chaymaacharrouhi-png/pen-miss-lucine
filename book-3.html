@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>The Quiet Lumen — Miss Lucine</title>
+  <meta name="description" content="The Quiet Lumen is a premium collection of short stories by Miss Lucine, filled with quiet revelations and candlelit moments.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header container">
+    <a class="brand" href="index.html">
+      <div class="logo">ML</div>
+      <div class="brand-copy">
+        <p class="eyebrow">Miss Lucine</p>
+        <p class="brand-title">The Quiet Lumen</p>
+      </div>
+    </a>
+    <div class="header-actions">
+      <button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">Theme</button>
+      <nav class="site-nav"></nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="book-banner animated">
+      <div class="book-hero">
+        <p class="eyebrow">Collection</p>
+        <h1>The Quiet Lumen</h1>
+        <p class="muted">Short stories woven in candlelight</p>
+        <p>A collection of intimate stories exploring small revelations and the transformative power of solitude across gilded rooms and long evenings.</p>
+        <div class="book-meta">
+          <div class="meta-item"><strong>Length</strong><span>188 pages</span></div>
+          <div class="meta-item"><strong>Release</strong><span>2024</span></div>
+          <div class="meta-item"><strong>Format</strong><span>Collection</span></div>
+          <div class="meta-item"><strong>Themes</strong><span>Short Stories, Reflection, Elegance</span></div>
+        </div>
+        <div class="store-buttons">
+          <div class="store-note">Available soon on Amazon and direct author channels.</div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="cover-glow"></div>
+        <img src="assets/images/cover3.svg" alt="The Quiet Lumen cover">
+      </div>
+    </div>
+    <div class="section-intro animated">
+      <h3>About the book</h3>
+      <p>Each tale is a candle, lighting a corner of the world where longing and light intersect.</p>
+    </div>
+
+    <footer class="site-footer">
+      <div>© <span id="year3"></span> Miss Lucine</div>
+      <div>Book detail — The Quiet Lumen</div>
+    </footer>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById('year3').textContent=new Date().getFullYear();</script>
+</body>
+</html>

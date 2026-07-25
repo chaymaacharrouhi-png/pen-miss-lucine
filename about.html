@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About — Miss Lucine</title>
+  <meta name="description" content="Learn about Miss Lucine and her luxury fiction writing style.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header container">
+    <a class="brand" href="index.html">
+      <div class="logo">ML</div>
+      <div class="brand-copy">
+        <p class="eyebrow">Miss Lucine</p>
+        <p class="brand-title">About the author</p>
+      </div>
+    </a>
+    <div class="header-actions">
+      <button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">Theme</button>
+      <nav class="site-nav"></nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section-intro animated">
+      <h3>About Miss Lucine</h3>
+      <p>Miss Lucine writes rich, atmospheric fiction for readers who appreciate craft, mood, and enduring characters.</p>
+    </section>
+
+    <section class="features">
+      <div class="feature-card animated">
+        <h4>Atmospheric worlds</h4>
+        <p>Every story is designed to transport the reader into striking interiors, gardens, and quiet midnight hours.</p>
+      </div>
+      <div class="feature-card animated">
+        <h4>Memorable characters</h4>
+        <p>Complex, elegant protagonists anchor each work with emotion and subtle depth.</p>
+      </div>
+      <div class="feature-card animated">
+        <h4>Deliberate pacing</h4>
+        <p>Slow-burning narratives and sensory detail give each book a luxurious pace.</p>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div>© <span id="year4"></span> Miss Lucine</div>
+      <div>About page</div>
+    </footer>
+  </main>
+
+  <script>document.getElementById('year4').textContent=new Date().getFullYear();</script>
+</body>
+</html>

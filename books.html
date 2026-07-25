@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Books — Miss Lucine</title>
+  <meta name="description" content="Browse the full library of Miss Lucine books, including Amazon releases, guided journals, and premium literary works.">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header container">
+    <a class="brand" href="index.html"><div class="logo">ML</div></a>
+    <div class="header-actions">
+      <button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">Theme</button>
+      <nav class="site-nav"></nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="bookToolbar"></div>
+    <div id="booksGrid" class="grid"></div>
+
+    <section class="section-intro animated" style="margin-top:40px">
+      <h3>Discover your next read</h3>
+      <p>Filter by categories, search by mood, and browse curated fiction in a luxury atmosphere.</p>
+    </section>
+
+    <footer class="site-footer">
+      <div>© <span id="year2"></span> Miss Lucine</div>
+      <div>Books collection</div>
+    </footer>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById('year2').textContent=new Date().getFullYear();</script>
+</body>
+</html>
